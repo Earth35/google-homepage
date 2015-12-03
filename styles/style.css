@@ -8,7 +8,7 @@
 .logo_container {
 		display: block;
 		position: relative;
-		margin: 50px auto 20px auto;	/* temporary */	
+		margin: 65px auto 20px auto;
 		width: 272px;
 		height: 92px;
 		padding: 100px 0 0 0;
@@ -38,7 +38,7 @@
 .search_container {
 	position: relative;
 	display: block;
-	width: 550px;
+	width: 586px;
 	height: 40px;
 	margin: auto;
 	border: 1px solid #d9d9d9;
@@ -88,15 +88,14 @@
 .search {
 	display: inline-block;
 	position: relative;
+	border: 1px solid rgba(0, 0, 0, 0);
 	border-radius: 2px;
-	border: none;
 	margin: 11px 2px;
 	padding: 11px 14px;
 	font-family: arial,sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	color: #757575;
-	border: 1px solid rgba(0, 0, 0, 0);
 	background-color: #f1f1f1;
 }
 
@@ -106,4 +105,51 @@
 	border: 1px solid #c6c6c6;
 	background-image: linear-gradient(top, #f8f8f8,#f1f1f1);
 	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+.nav_inner {
+	position: absolute;
+	width: 250px;
+	display: flex;
+	display: -webkit-flex;
+	padding: 0 30px;
+	top: 15px;
+	right: 0;
+	justify-content: space-between;
+}
+
+.navi_button {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #757575;
+	font-size: 13px;
+	padding: 8px 0;
+	height: 13px;
+	width: auto;
+}
+
+.navi_button:hover {
+	text-decoration: underline;
+}
+
+#uslugi {
+	padding: 0;
+}
+
+.navi_login {
+	width: 95px;
+	height: 30px;
+	background-color: #4285f4;
+	border-radius: 2px;
+	font-family: arial, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.navi_login:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
