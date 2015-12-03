@@ -77,3 +77,33 @@
 	margin: auto;
 	padding: 36% 0;
 }
+
+.buttons {
+	display: block;
+	position: relative;
+	padding: 18px 0 0 0;
+	height: 36px;
+}
+
+.search {
+	display: inline-block;
+	position: relative;
+	border-radius: 2px;
+	border: none;
+	margin: 11px 2px;
+	padding: 11px 14px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #f1f1f1;
+}
+
+.search:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222222;
+	border: 1px solid #c6c6c6;
+	background-image: linear-gradient(top, #f8f8f8,#f1f1f1);
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
